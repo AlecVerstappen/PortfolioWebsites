@@ -1,0 +1,88 @@
+:root {
+    --dark-blue: #001f3f;
+    --mid-blue: #3a6d8c;
+    --light-blue: #6a9ab0;
+    --beige: #ead8b1;
+}
+
+@font-face {
+    font-family: "Biome W01 Narrow Semi Bold";
+    src: url("https://db.onlinewebfonts.com/t/db5ab8717143bece397680945b2e919d.eot");
+    src: url("https://db.onlinewebfonts.com/t/db5ab8717143bece397680945b2e919d.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/db5ab8717143bece397680945b2e919d.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/db5ab8717143bece397680945b2e919d.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/db5ab8717143bece397680945b2e919d.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/db5ab8717143bece397680945b2e919d.svg#Biome W01 Narrow Semi Bold")format("svg");
+}
+
+h1, h2 {
+    font-family: "Biome W01 Narrow Semi Bold";
+}
+
+body {
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    background-color: var(--beige);
+    color: var(--dark-blue);
+}
+
+nav {
+    background-color: var(--dark-blue);
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: var(--beige);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.profile-pic img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.content {
+    background-color: var(--mid-blue);
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+}
+
+.content h2 {
+    color: var(--beige);
+}
+
+footer {
+    background-color: var(--dark-blue);
+    color: var(--beige);
+    padding: 10px;
+    text-align: center;
+}
