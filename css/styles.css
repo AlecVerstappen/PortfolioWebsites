@@ -166,3 +166,25 @@ caption {
     font-family: 'Biome W01 Narrow Semi Bold', sans-serif;
     color: #001f3f;
 }
+
+.float-right {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
