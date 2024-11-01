@@ -301,3 +301,27 @@ caption {
     font-size: 1.1em;
     font-weight: bold;
 }
+
+.carousel-caption {
+    display: block !important;
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+    color: var(--beige);
+    -webkit-text-stroke-color: var(--dark-blue);
+    -webkit-text-stroke-width: 1px;
+    border-radius: 5px;
+    font-family: "Biome W01 Narrow Semi Bold", sans-serif;
+}
+
+.carousel {
+    width: 50%;
+    margin: 0 auto; /* Centreer de carousel horizontaal */
+}
+
+@media (max-width: 768px) {
+    .carousel {
+        width: 100%;
+    }
+}

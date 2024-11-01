@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hobby's en Intresses</title>
+    <title>Hobby's en Interesses</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -13,18 +13,19 @@
 
     <link rel="stylesheet" href="../css/styles.css">
 
-        <!-- Favicons -->
-        <link rel="apple-touch-icon" sizes="180x180" href="../img/favicons/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="../img/favicons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="../img/favicons/favicon-16x16.png">
-        <link rel="manifest" href="../img/favicons/site.webmanifest">
-        <link rel="mask-icon" href="../img/favicons/safari-pinned-tab.svg" color="#5bbad5">
-        <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="theme-color" content="#ffffff">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="../img/favicons/site.webmanifest">
+    <link rel="mask-icon" href="../img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
 
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="index.html">Alec Verstappen</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,37 +33,80 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="cv.html">CV</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="ervaring.html">Ervaring</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="hobby.html">Hobby's en Intresses</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+                <li class="nav-item"><a class="nav-link" href="ervaring.html">Ervaring</a></li>
+                <li class="nav-item"><a class="nav-link" href="hobby.html">Hobby's en Interesses</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
             </ul>
         </div>
     </nav>
 
-    <div class="container">
+    <div class="container my-5">
+        <!-- Titel en inleiding -->
         <h1>Mijn Hobby's en Interesses</h1>
+        <p>Hieronder vind je een overzicht van mijn hobby's en interesses die me hebben geholpen om als persoon te groeien. Van mijn tijd bij KSA tot mijn liefde voor vinylplaten, elke ervaring heeft bijgedragen aan mijn ontwikkeling.</p>
 
-        <div class="content">
+        <!-- Carousel met 6 afbeeldingen -->
+        <div id="hobbyCarousel" class="carousel slide my-4" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../img/hobby1.jpg" class="d-block w-100" alt="KSA Beerse">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>KSA Beerse</h5>
+                        <p>Na tien jaar lidmaatschap, groeide ik door tot leider bij KSA Beerse.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/hobby2.jpg" class="d-block w-100" alt="Vinyl Collectie">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Vinyl Verzameling</h5>
+                        <p>Het fysieke aspect van vinyl brengt me dichter bij muziek.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/hobby3.jpg" class="d-block w-100" alt="Website Onderhoud">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Website Onderhoud</h5>
+                        <p>Ik onderhield de website van de KSA, wat mijn technische vaardigheden uitbreidde.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/hobby4.jpg" class="d-block w-100" alt="Lokaal Onderhoud">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Lokaal Onderhoud</h5>
+                        <p>Ik zorgde ervoor dat het KSA-lokaal een veilige plek was voor iedereen.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/hobby5.jpg" class="d-block w-100" alt="Evenement Organisatie">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Evenement Organisatie</h5>
+                        <p>Organisatie van het kermisweekend in Beerse, inclusief vergunningen en logistiek.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/hobby6.jpg" class="d-block w-100" alt="Platenspeler Reparatie">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Platenspeler Reparatie</h5>
+                        <p>Reparatie van een oude platenspeler heeft mijn technische kennis verrijkt.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#hobbyCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Vorige</span>
+            </a>
+            <a class="carousel-control-next" href="#hobbyCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Volgende</span>
+            </a>
+        </div>
 
-            <img src="../img/hobby1.jpg" alt="Foto KSA" class="float-right">
-
+        <!-- Extra uitleg over hobby's en interesses -->
+        <section>
             <h2>KSA Beerse</h2>
-            <p>Na tien jaar als lid van de KSA Beerse besloot ik om mijn ervaring als leider verder te ontwikkelen. Gedurende vier jaar nam ik verschillende verantwoordelijkheden op me, wat niet alleen mijn organisatorische vaardigheden, maar ook mijn persoonlijkheid heeft gevormd. Een van mijn belangrijkste taken was het onderhoud van de website van de KSA. Hierdoor leerde ik hoe je online communicatie effectief inzet om leden en ouders op de hoogte te houden van belangrijke activiteiten en evenementen. Dit gaf me de kans om mijn technische vaardigheden uit te breiden en te zorgen voor een heldere en gebruiksvriendelijke online aanwezigheid van de vereniging.</p>
-            <p>Naast mijn online taken was ik ook verantwoordelijk voor het onderhoud van het lokaal. Het KSA-lokaal is het centrum van de jeugdbeweging en door kleine reparaties en onderhoudswerk uit te voeren, leerde ik praktische vaardigheden die ik anders nooit had opgedaan. Het bijhouden van het gebouw zorgde ervoor dat de leden een veilige en schone omgeving hadden om in te spelen en samen te komen.</p>
-            <p>Een van de meest uitdagende, maar ook meest belonende ervaringen was het organiseren van ons jaarlijkse kermisweekend. Dit evenement bestond uit twee fuiven en een terras, waarbij ik verantwoordelijk was voor de gehele coördinatie. Dit omvatte onder meer het verkrijgen van vergunningen, het aansturen van vrijwilligers en het regelen van leveranciers voor eten en drinken. De belangrijkste taken die ik hier uitvoerde waren:</p>
-
+            <p>Na tien jaar als lid van de KSA Beerse besloot ik om mijn ervaring als leider verder te ontwikkelen. Gedurende vier jaar nam ik verschillende verantwoordelijkheden op me, waaronder het onderhoud van de website en het organiseren van evenementen zoals het jaarlijkse kermisweekend.</p>
             <ul>
                 <li>Het coördineren van een team</li>
                 <li>Het verkrijgen van alle noodzakelijke vergunningen</li>
@@ -71,31 +115,17 @@
                 <li>Contact met de gemeente</li>
             </ul>
 
-            <p>Door deze ervaring heb ik geleerd om onder druk te werken, mijn tijd goed in te delen en duidelijk te communiceren met verschillende partijen. Het succes van het evenement gaf me veel voldoening en heeft me belangrijke vaardigheden bijgebracht op het gebied van leiderschap en organisatie.</p>
-
-            <img src="../img/hobby2.jpg" alt="platenspeler en platen" class="float-left">
-
             <h2>Vinylplaten Verzamelen</h2>
-
-            <p>Al twee jaar lang verzamel ik met veel plezier vinylplaten. Deze hobby heeft mijn liefde voor muziek verdiept en heeft me in aanraking gebracht met veel nieuwe artiesten en genres. Er is iets speciaals aan het fysieke aspect van een plaat en de unieke manier waarop je deze muziek beleeft. Door het verzamelen ben ik ook meer geïnteresseerd geraakt in de techniek achter de platenspeler zelf.</p>
-            <p>Een bijzonder project was de reparatie van een oude volautomatische platenspeler die ik tweedehands kocht. Deze werkte niet goed meer, dus besloot ik hem zelf open te maken en te repareren. Dit was een leerzaam proces waarbij ik onder andere leerde over:</p>
-           
+            <p>Ik verzamel al twee jaar lang vinylplaten, wat mijn liefde voor muziek heeft verdiept. Deze hobby bracht me ook in aanraking met de techniek van platenspelers, wat me inspireerde om een oude speler zelf te repareren.</p>
             <ul>
-                <li>Het mechanisme dat de naald automatisch laat zakken</li>
-                <li>Het mechanisme dat de arm naar de juiste plaats beweegt</li>
-                <li>Het afstellen van de draaisnelheid</li>
-                <li>De precieze balans van de arm voor het afspelen van platen</li>
+                <li>Afstellen van de draaisnelheid</li>
+                <li>Mechanisme voor de naald en arm repareren</li>
+                <li>Technische problemen zelf oplossen</li>
             </ul>
-
-            <p>Door mezelf uit te dagen om de platenspeler te repareren, heb ik niet alleen mijn technische vaardigheden verbeterd, maar ook mijn geduld en probleemoplossend vermogen. Het was een bevredigende ervaring om de speler weer werkend te krijgen en er mijn platen op af te spelen.</p>
-
-            <h2>Persoonlijke Groei</h2>
-
-            <p>De ervaringen binnen KSA Beerse en het repareren van mijn platenspeler hebben me geholpen om te groeien als persoon. Het nemen van verantwoordelijkheid binnen de KSA, zoals het organiseren van evenementen en het onderhouden van de website, heeft me geleerd om taken zelfstandig aan te pakken en met anderen samen te werken. Ik ontdekte hoe belangrijk communicatie is om een project soepel te laten verlopen en dat goed teamwork essentieel is voor succes.</p>
-            <p>Door de technische uitdaging van het repareren van mijn platenspeler aan te gaan, heb ik mijn zelfvertrouwen vergroot. Waar ik eerst onzeker was over mijn technische vaardigheden, heb ik geleerd dat doorzettingsvermogen en geduld je in staat stellen om nieuwe dingen te leren en problemen op te lossen. Deze ervaringen hebben me geholpen om zelfverzekerder en veerkrachtiger te worden, zowel op persoonlijk als professioneel vlak.</p>    
-        </div>
+        </section>
     </div>
 
+    <!-- Footer -->
     <footer class="footer bg-dark text-light py-4">
         <div class="container">
             <div class="row">
@@ -103,18 +133,10 @@
                     <p>&copy; Verstappen Alec</p>
                 </div>
                 <div class="col-md-6 text-center text-md-right">
-                    <a href="https://www.facebook.com/alec.verstappen/" class="text-light mx-2" target="_blank" aria-label="Facebook">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="https://www.instagram.com/verstappenalec/" class="text-light mx-2" target="_blank" aria-label="Instagram">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="https://github.com/AlecVerstappen" class="text-light mx-2" target="_blank" aria-label="GitHub">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/alec-verstappen/" class="text-light mx-2" target="_blank" aria-label="LinkedIn">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
+                    <a href="https://www.facebook.com/alec.verstappen/" class="text-light mx-2" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/verstappenalec/" class="text-light mx-2" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/AlecVerstappen" class="text-light mx-2" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/alec-verstappen/" class="text-light mx-2" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
         </div>
