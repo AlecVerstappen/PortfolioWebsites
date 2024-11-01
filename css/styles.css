@@ -188,3 +188,41 @@ caption {
     display: table;
     clear: both;
 }
+
+.navbar {
+    background-color: var(--dark-blue) !important;
+}
+
+.navbar-brand {
+    color: var(--beige) !important;
+    font-weight: bold;
+    font-family: "Biome W01 Narrow Semi Bold", sans-serif;
+}
+
+.navbar-nav .nav-link {
+    color: var(--beige) !important;
+    font-weight: bold;
+    font-family: "Biome W01 Narrow Semi Bold", sans-serif;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--light-blue) !important;
+}
+
+.footer {
+    background-color: var(--dark-blue) !important;
+    color: var(--beige) !important;
+    font-family: Verdana, sans-serif;
+}
+
+.footer a {
+    color: var(--beige) !important;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: var(--light-blue) !important;
+    text-decoration: none;
+}
+
