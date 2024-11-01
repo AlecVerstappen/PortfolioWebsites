@@ -60,13 +60,13 @@ nav ul li a:hover {
 }
 
 .profile-pic img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 20%;
     object-fit: cover;
-    display: block;
-    margin: 0 auto;
 }
+
 
 
 .content {
@@ -226,3 +226,32 @@ caption {
     text-decoration: none;
 }
 
+.jumbotron {
+    color: var(--beige)!important;
+    background-color: var(--dark-blue);
+    text-align: center;
+    padding: 100px 15px;
+}
+
+.jumbotron .btn-primary {
+    background-color: var(--light-blue);
+    border-color: var(--light-blue);
+}
+
+.jumbotron .btn-primary:hover {
+    background-color: var(--mid-blue);
+    border-color: var(--mid-blue);
+}
+
+.card {
+    border: none ;
+    border-radius: 8px ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) ;
+}
+
+.card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    object-fit: cover;
+    height: 200px;
+}
